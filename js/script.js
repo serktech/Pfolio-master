@@ -41,13 +41,13 @@ $(function(){
     });
 
     //Back to top button
-    var backToTopBtn = $('.js-back-top');
-
- 	backToTopBtn.on('click', function(e){
-	    $('html, body').animate({
-	      	scrollTop: 0}, 500);
-	      	e.preventDefault();
-  	});
+    // var backToTopBtn = $('.js-back-top');
+    //
+ 	// backToTopBtn.on('click', function(e){
+	 //    $('html, body').animate({
+	 //      	scrollTop: 0}, 500);
+	 //      	e.preventDefault();
+  	// });
 
   	$(window).on('scroll', function(){
 	    var scrollHeight = $(this).height();
